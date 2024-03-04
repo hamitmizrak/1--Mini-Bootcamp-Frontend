@@ -1,0 +1,90 @@
+<!-- Html5 standart -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Mini Bootcamp Frontend</title>
+
+    <!-- for language -->
+    <meta charset="utf-8" />
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- <style>
+            p{
+                color:blue;
+            }
+        </style> -->
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start codes -->
+
+    <div class="container ">
+        <div class="row">
+            <div class="bg-dark p-4 col-sm-12 col-md-4 col-xl-6">
+                <h2 class="text-center display-4 text-warning text-uppercase">Register Form</h2>
+                <form action="" method="get">
+                    <!-- Adınız -->
+                    <div class="form-group mb-3">
+                        <label for="uname">Name</label>
+                        <input type="text" class="form-control" id="uname" name="uname" required title="adınız ..."
+                            placeholder="Lütfen adınızı giriniz." autofocus>
+                        <p class="text-danger">Adınızı girmediniz</p>
+                    </div>
+
+                    <!-- Soyadınız -->
+                    <div class="form-group mb-3">
+                        <label for="usurname">Surname</label>
+                        <input type="text" class="form-control" id="usurname" name="usurname" required
+                            title="Soyadınız ..." placeholder="Lütfen Soyadınız giriniz.">
+                        <p class="text-danger">Soyadınız girmediniz</p>
+                    </div>
+
+                    <!-- Emailiniz -->
+                    <div class="form-group mb-3">
+                        <label for="uemail">Surname</label>
+                        <input type="email" class="form-control" id="uemail" name="usurname" required
+                            title="Emailiniz ..." placeholder="Lütfen Emailiniz giriniz.">
+                        <p class="text-danger">Emailinizi girmediniz</p>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group mb-3">
+                        <label for="upassword">Emailiniz</label>
+                        <input type="email" class="form-control" id="upassword" name="upassword" required
+                            title="Şifreniz ..." placeholder="Lütfen Emailiniz giriniz.">
+                        <p class="text-danger">Emailinizi girmediniz</p>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <input type="reset" value="Temizle" class="btn btn-danger">
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-8 col-xl-6">SAĞ</div>
+        </div>
+    </div>
+
+    <!-- end codes -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <!-- external JS -->
+    <script src="./template.js"></script>
+</body>
+
+</html>
