@@ -49,11 +49,11 @@ let  postResult=()=>{
 
     // Form Input
     let formData={
-        "id":$("#uid").val(),
-        "name":$("#uname").val(),
-        "surname":$("#usurname").val(),
-        "email":$("#uemail").val(),
-        "password":$("#upassword").val(),
+        "id":jQuery.trim($("#uid").val()) ,
+        "name":jQuery.trim($("#uname").val()),
+        "surname":jQuery.trim($("#usurname").val()),
+        "email":jQuery.trim($("#uemail").val()),
+        "password":jQuery.trim($("#upassword").val()),
         "created_date":$("#ucreated_date").val(),
         
     };
