@@ -1,0 +1,43 @@
+{
+  "register": [
+    {
+      "id": "1",
+      "name": "Hamit",
+      "surname": "Mızrak",
+      "email": "hamitmizrak@gmail.com",
+      "password": "şifre1234.",
+      "created_date": "06/03/2024"
+    },
+    {
+      "id": "2",
+      "name": "name-2",
+      "surname": "surname-2",
+      "email": "hamitmizrak@gmail.com",
+      "password": "şifre1234.",
+      "created_date": "06/03/2024"
+    },
+    {
+      "id": "3",
+      "name": "name-3",
+      "surname": "surname-3",
+      "email": "hamitmizrak@gmail.com",
+      "password": "şifre1234.",
+      "created_date": "06/03/2024"
+    },
+    {
+      "id": "4",
+      "name": "adı-4",
+      "surname": "soyad-4",
+      "email": "email4@gmail.com",
+      "password": "şifre444"
+    },
+    {
+      "id": "5",
+      "name": "name-5",
+      "surname": "surname-5",
+      "email": "email5@gmail.com",
+      "password": "şifre55",
+      "created_date": "2024-03-06"
+    }
+  ]
+}
